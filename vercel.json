@@ -1,15 +1,8 @@
 {
-  "outputDirectory": "frontend",
-  "installCommand": "pip install -r backend/requirements.txt",
-  "functions": {
-    "frontend/api/**/*.py": {
-      "runtime": "python3.9"
-    }
-  },
   "rewrites": [
     {
-      "source": "/api/config",
-      "destination": "/frontend/api/config.py"
+      "source": "/",
+      "destination": "/index.html"
     }
   ]
 }
