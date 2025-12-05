@@ -1,0 +1,56 @@
+[
+    {
+        "file": "IRSA Press Release 4th November, 2025",
+        "date": null,
+        "stations": {},
+        "rim_inflows": null,
+        "rim_outflows": null,
+        "irsa_releases": {}
+    },
+    {
+        "file": "Daily Data 04_12_2025",
+        "date": "04.12.2025",
+        "stations": {
+            "TAUNSA": {
+                "U/SDISCHARGE": 56053.0,
+                "D/SDISCHARGE": 49086.0
+            },
+            "PANJNAD": {
+                "U/SDISCHARGE": 17773.0,
+                "IRSARELEASES D/SDISCHARGE": 11773.0
+            },
+            "GUDDU": {
+                "D/SDISCHARGE": 49086.0,
+                "U/SDISCHARGE": 56053.0
+            },
+            "KOTRI": {
+                "U/SDISCHARGE": 43100.0,
+                "D/SDISCHARGE": 14550.0
+            },
+            "MARALA": {
+                "MEANU/SDISCHARGE": 7605.0,
+                "LEVEL": 1215.55,
+                "MEAND/SDISCHARGE": 1656.0,
+                "DEADLEVEL": 1050.0,
+                "MEANINFLOW": 4900.0
+            },
+            "NOWSHERA": {
+                "LEVEL": 1491.77,
+                "MEANDISCHARGE": 7300.0,
+                "DEADLEVEL": 1402.0,
+                "MEANINFLOW": 21300.0,
+                "MEANOUTFLOW": 33000.0
+            },
+            "CHASHMA": {
+                "LEVEL": 647.7,
+                "U/SDISCHARGE": 39392.0,
+                "DEADLEVEL": 638.15,
+                "D/SDISCHARGE": 32892.0,
+                "MEANINFLOW": 33223.0
+            }
+        },
+        "rim_inflows": null,
+        "rim_outflows": null,
+        "irsa_releases": {}
+    }
+]
