@@ -1,10 +1,15 @@
 {
-    "buildCommand": "cd frontend && echo 'No build needed'",
-    "outputDirectory": "frontend",
-    "rewrites": [
-        {
-            "source": "/",
-            "destination": "/index.html"
-        }
-    ]
+  "outputDirectory": "frontend",
+  "installCommand": "pip install -r backend/requirements.txt",
+  "functions": {
+    "frontend/api/**/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/config",
+      "destination": "/frontend/api/config.py"
+    }
+  ]
 }
