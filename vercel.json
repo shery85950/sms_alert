@@ -1,0 +1,10 @@
+{
+    "buildCommand": "cd frontend && echo 'No build needed'",
+    "outputDirectory": "frontend",
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        }
+    ]
+}
